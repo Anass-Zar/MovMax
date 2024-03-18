@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="./src/images/movmax.png" alt="MovMax" width="540" height="300"/>
+  <img src="./src/images/movmax.png" alt="MovMax" width="550" height="100"/>
 </div>
 
 # MovMax | Platform
