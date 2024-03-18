@@ -1,0 +1,43 @@
+.movies-all {
+  padding: 50px;
+  background-color: rgb(15, 15, 15);
+}
+
+.movie-container-all {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie-all {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-all:hover {
+  transform: scale(1.05);
+}
+
+.movie-image-all {
+  width: 100%;
+  height: auto;
+}
+
+.movie-details-all {
+  padding: 10px;
+}
+
+.movie-title-all {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movie-release-date-all {
+  font-size: 14px;
+  color: #555;
+}

@@ -1,0 +1,110 @@
+.pages-ex {
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+}
+.pages-in {
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.page {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.page:hover {
+  color: rgb(90, 27, 138);
+}
+.spa{
+  font-size: 30px;
+  margin-right: 20px;
+}
+.background {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.poster-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.all-ex {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(137, 43, 226, 0.658);
+}
+
+.all-in {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.image-movie {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 30px 50px 30px 0px;
+}
+
+.info {
+  height: 500px;
+  display: grid;
+  align-content: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.info-one {
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.info-one span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.synopsis {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.descr {
+  font-size: 16px;
+  color: black;
+  text-align: start;
+}
+.ee {
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+}
+.video {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-block: 65px;
+}
+.sorry {
+  font-size: 24px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}

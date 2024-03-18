@@ -1,0 +1,170 @@
+.news {
+  max-height: 440px;
+  min-height: 200px;
+  max-width: 100%;
+  min-width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+}
+.informations {
+  display: grid;
+  align-content: center;
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 420px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.titre {
+  font-size: 60px;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.ep {
+  font-size: 22px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+.des {
+  font-size: 18px;
+  text-align: start;
+}
+.play {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 28px;
+  background-color: #742cab;
+  border: 1px solid #742cab;
+  border-radius: 5px;
+  color: white;
+}
+.play:hover {
+  background-color: rgb(90, 27, 138);
+  border: 1px solid rgb(90, 27, 138);
+}
+.photo {
+  padding-block: 10px;
+  background-color: rgb(10, 10, 10);
+  max-height: 440px;
+  min-height: 200px;
+  width: 110rem;
+}
+@media only screen and (min-width: 1200.1px) and (max-width: 1450px) {
+  .news {
+    max-height: 440px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 50%;
+  }
+  .titre {
+    font-size: 50px;
+  }
+  .ep {
+    font-size: 20px;
+  }
+  .des {
+    font-size: 16px;
+  }
+  .play {
+    width: 160px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 770.1px) and (max-width: 1200px) {
+  .news {
+    background-color: rgb(10, 10, 10);
+    padding: 0;
+    z-index: -1;
+    width: 100%;
+    max-height: 500px;
+    min-height: 120px;
+    position: relative;
+  }
+  .informations {
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    bottom: 20px;
+    left: 20px;
+  }
+  .photo {
+    z-index: 0;
+    top: 60px;
+    padding: 15px;
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 470px;
+    min-height: 100px;
+    background-size: cover;
+  }
+  .titre {
+    font-size: 45px;
+  }
+  .ep {
+    font-size: 20px;
+  }
+  .des {
+    font-size: 16px;
+  }
+  .play {
+    width: 160px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .news {
+    height: 900px;
+    padding: 0;
+    position: relative;
+  }
+  .informations {
+    min-height: auto;
+    z-index: 1;
+    position: absolute;
+    width: 80%;
+    padding: 0;
+    bottom: 10px;
+    left: 10px;
+  }
+  .photo {
+    z-index: 0;
+    top: 60px;
+    padding-block: 15px;
+    width: 100%;
+    max-height: 470px;
+    min-height: 100px;
+    background-size: initial;
+  }
+  .titre {
+    font-size: 25px;
+    margin: 0;
+  }
+  .ep{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .des{
+      font-size: 12px;
+  }
+  .play{
+    margin-block: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+}
+.movies-tendance {
+  padding-top: 50px;
+  background-color: rgb(15, 15, 15);
+}
+
+.title-categ {
+  padding-left: 20px;
+  color: #f0f0f0;
+}
