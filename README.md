@@ -19,7 +19,7 @@ MovMax is your ultimate destination for all things movies and series! Discover t
   - [Table of Contents](#table-of-contents)
   - [Tools \& Resources](#tools--resources)
   - [Screenshots](#screenshots)
-  - [Home Page:](#main-page)
+  - [Home Page:](#home-page)
   - [Sign Up Page](#sign-up-page)
   - [Sign In Page:](#sign-in-page)
   - [Listing Movies Page:](#listing-movies-page)
